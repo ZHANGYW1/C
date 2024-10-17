@@ -1,0 +1,17 @@
+# paths
+dataset_path: ""
+dataset_name: ""
+
+# image info
+chans: 3
+img_width: 320
+img_height: 240
+
+
+scale: 2
+val_interval: 1
+
+
+
+
+ 

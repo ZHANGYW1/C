@@ -1,0 +1,27 @@
+
+# dataset info
+dataset_name: ""
+dataset_path: ""
+
+# image info
+chans: 3
+img_width: 320
+img_height: 240
+
+# mode
+train: true
+scale: 2
+
+# path
+# the checkpoints of the enhancement module(branchA)
+branchA: "SESR.pth"
+# the checkpoints of the enhancement module(branchB)
+branchB: "low.pth"
+
+# other params
+val_interval: 1000 # steps
+ckpt_interval: 20  # epochs
+
+
+
+ 
