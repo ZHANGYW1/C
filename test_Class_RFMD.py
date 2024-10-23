@@ -57,10 +57,7 @@ for path in test_files:
     s = time.time()
     model.eval()
     with torch.no_grad():
-        time_start = time.time()
         image,type = model(inp_img,mode,scale)
-        time_end = time.time()
-        print('time cost', time_end - time_start, 's')
     times.append(time.time() - s)
     save_image(image, join(opt.sample_dir, basename(path)), normalize=True)
     print ("Tested: %s" % path)
