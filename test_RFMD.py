@@ -54,9 +54,9 @@ for path in test_files:
     inp_img = Variable(inp_img).type(Tensor).unsqueeze(0)
     s = time.time()
     with torch.no_grad():
-        A = model(inp_img,scale)
+        image = model(inp_img,scale)
     times.append(time.time() - s)
-    save_image(A, join(opt.sample_dir, basename(path)), normalize=True)
+    save_image(image, join(opt.sample_dir, basename(path)), normalize=True)
     print ("Tested: %s" % path)
 
 ## run-time
