@@ -33,4 +33,4 @@ https://drive.google.com/file/d/1BRYwRtdk1TtUIOfjcJE5PxxCiXYF0kBb/view?usp=drive
 4. Set the path of testset
 5. Run test_Class_RFMD.py
 # Acknowledge #
-The repo is partly built based on FUnIEGAN, URIE(https://github.com/taeyoungson/urie), Class SR, ConvMLP. We are grateful for their generous contribution to open source.
+The repo is partly built based on FUnIEGAN, [URIE](https://github.com/taeyoungson/urie), Class SR, ConvMLP. We are grateful for their generous contribution to open source.
