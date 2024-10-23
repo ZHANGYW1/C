@@ -4,29 +4,32 @@
 3. Option: NVIDIA GPU + CUDA
 
 # Train and Inference #
-## train RFMD ## 
+
+## Train RFMD ## 
 1. Set the path of dataset.
 2. Run train_RFMD.py
-## test RFMD ## 
+## Test RFMD ## 
 1. Set the path of testset.
 2. You can download the pretrained model of SESR(upscaling factor = 2) :
 https://drive.google.com/file/d/1hZiuDeoOfX7Lxs_KA5XxXdb9an6nLAvZ/view?usp=drive_link
 4. Run test_RFMD.py
-## train SRFMD ##
+
+## Train SRFMD ##
 1. In file train_RFMD.py, from models.archs.SRFMD_arch import SRFMD, and replace the RFMD with SRFMD.
 2. Set the path of dataset.
 3. Run train_RFMD.py
-##  test SRFPM ##
+## Test SRFMD ##
 1. In file test_RFMD.py, from models.archs.SRFMD_arch import SRFMD, and replace the RFMD with SRFMD.
 2. Set the path of testset.
 3. Run test_RFMD.py
-## train Class_RFMD ## 
+
+## Train Class_RFMD ## 
 1. Set the mode in the options/rfpm.yaml.
 mode = True: Training process
 mode = False: Testing Process
 2. Set the path of the dataset.
 3. Run train_Class_RFMD.py.
-## test Class_RFMD ##
+## Test Class_RFMD ##
 1. Set the mode in the options/rfpm.yaml.
 2. You can download the pretrained model of SESR (upscaling factor = 2) with classfication module:
 https://drive.google.com/file/d/1BRYwRtdk1TtUIOfjcJE5PxxCiXYF0kBb/view?usp=drive_link
