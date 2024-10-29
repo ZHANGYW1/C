@@ -22,6 +22,7 @@ https://drive.google.com/file/d/1hZiuDeoOfX7Lxs_KA5XxXdb9an6nLAvZ/view?usp=drive
 1. In file test_RFMD.py, from models.archs.SRFMD_arch import SRFMD, and replace the RFMD with SRFMD.
 2. Set the path of testset.
 3. Run test_RFMD.py
+4. You can download the UIEBD-120 from https://drive.google.com/drive/folders/1c_BmKlTBNR-e-P8tuxqx73EgCsFRJwpf?usp=drive_link.
 
 ## Train Class_RFMD ## 
 1. Set the mode in the options/rfpm.yaml.
